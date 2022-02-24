@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/wanglin/.nvm/versions/node/v14.18.1/bin/node /Users/wanglin/.nvm/versions/node/v14.18.1/bin/yarn add jquery @2.2.0
+
+PATH: 
+  /Users/wanglin/.nvm/versions/node/v14.18.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://10.10.25.12:4873/@2.2.0: no such package available
+      at Request.params.callback [as _callback] (/Users/wanglin/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/wanglin/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/wanglin/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/wanglin/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "wanglin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "npm.js",
+    "bin": "./main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

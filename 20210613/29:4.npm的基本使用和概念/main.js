@@ -1,0 +1,1 @@
+#! /usr/bin/env node 表示用node来执行当前文件
